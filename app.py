@@ -11,7 +11,7 @@ from oauth2client.service_account import ServiceAccountCredentials  # ok if you 
 st.set_page_config(page_title="Summary User Study", layout="wide")
 
 # ================== GOOGLE SHEETS SETUP ==================
-SHEET_NAME = "YOUR_SHEET_NAME_HERE"   # <-- change this to your actual sheet name
+SHEET_NAME = "Summary User Study"   # <-- change this to your actual sheet name
 
 scope = [
     "https://www.googleapis.com/auth/spreadsheets",
